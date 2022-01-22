@@ -1,0 +1,79 @@
+body {
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+
+/** Header Styles */
+
+header {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/** Question Area Styles */
+
+#question-area {
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid black;
+    width: 50%;
+    margin: 1% 25% 1% 25%;
+}
+
+/** Picture Area Styles */
+
+#picture-area {
+    text-align: center;
+    border: 1px solid black;
+    width: 40%;
+    margin: 1% 30% 1% 30%;
+}
+
+/** Answer Area Styles */
+
+#answer-area {
+    text-align: center;
+    width: 50%;
+    margin: 1% 25% 1% 25%;
+}
+
+.answer-box {
+    text-align:center;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 40%;
+    margin: 1% 30% 1% 30%;
+    background-color:lightslategray;
+}
+
+.answer-box:hover {
+    background-color: lime;
+}
+
+/** Response Area Styles */
+
+#response-area {
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    margin: 1% 25% 1% 25%;
+    display: none;
+}
+
+/** Reset Area Styles */
+
+#reset-button {
+    text-align: center;
+    border: 1px solid black;
+    background-color: slategrey;
+    width: 12%;
+    margin: 1% 44% 1% 44%;
+}
+
+#reset-button:hover {
+    background-color: black;
+    color: white;
+}
