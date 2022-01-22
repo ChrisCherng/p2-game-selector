@@ -13,9 +13,11 @@
 <body>
     <header>BOARD GAME SELECTOR <i class="fas fa-dice"></i></header>
 
-    <div id="question-area" src="#">Question Area</div>
+    <div id="question-area">Question Area</div>
 
-    <div id="picture-area">Picture Area</div>
+    <div id="picture-area">
+        <img id="image" src="#">
+    </div>
 
     <div id="answer-area">
         <div class="answer-box" id="answer1">Answer 1</div>
@@ -23,7 +25,16 @@
         <div class="answer-box" id="answer3">Answer 3</div>
     </div>
 
-    <div id="response-area">Response Area</div>
+    <div id="response-area">
+        <div id="response-summary">
+            <p>Based on the following:</p>
+            <p class="response-line" id="players-response"></p>
+            <p class="response-line" id="type-response"></p>
+            <p class="response-line" id="weight-response"></p>
+            <p>We think you will love the following game:</p>
+            <p id="game-name"></p>
+        </div>
+    </div>
 
     <div id="reset-button">Reset Page</div>
 
