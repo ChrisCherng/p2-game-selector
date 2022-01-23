@@ -10,7 +10,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
 }
 
 /** Question Area Styles */
@@ -39,7 +39,7 @@ header {
 #answer-area {
     text-align: center;
     width: 50%;
-    margin: 1% 25% 1% 25%;
+    margin: 1% 25% 3% 25%;
 }
 
 .answer-box {
@@ -52,7 +52,8 @@ header {
 }
 
 .answer-box:hover {
-    background-color: lime;
+    background-color:powderblue;
+    cursor: pointer;
 }
 
 /** Response Area Styles */
@@ -72,6 +73,11 @@ header {
 
 #game-name {
     font-size: 30px;
+    font-weight: bold;
+}
+
+#games-list {
+    font-size: 15px;
 }
 
 /** Reset Area Styles */
@@ -88,4 +94,63 @@ header {
 #reset-button:hover {
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+
+/** Media Queries for Mobile Responsiveness */
+
+@media (max-width: 480px) {
+
+    header {
+        font-size: 40px;
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+
+    #question-area {
+        font-size: 35px;
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+
+    #picture-area {
+        text-align: center;
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+    
+    #picture-area img {
+        width: 80%;
+    }
+
+    #answer-area {
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+    
+    .answer-box {
+        font-size: 30px;
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+
+    .answer-box:hover {
+        background-color: lightslategray;
+    }
+
+    #reset-button {
+        width: 70%;
+        margin: 15% 15% 1% 15%;
+    }
+
+    #response-area {
+        font-size: 15px;
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+
+    #games-list {
+        display: none;
+    }
+
 }
