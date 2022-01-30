@@ -1,3 +1,6 @@
+// Comment to remove jshint validator errors for older browsers
+/*jshint esversion: 6 */
+
 // Set the arrays of standing data including images
 let games = [
     {
@@ -135,7 +138,7 @@ function displayQuestion() {
 function runGame() {
 if (index < questions.length) {
     displayQuestion();
-} else if (index >= questions.length){
+    } else if (index >= questions.length){
     document.getElementById("question-area").innerHTML = 'Here is your game! <i class="fas fa-trophy"></i>';
     document.getElementById("answer-area").style.display = "none";
     document.getElementById("response-area").style.display = "block";
@@ -143,9 +146,9 @@ if (index < questions.length) {
     document.getElementById("type-response").innerHTML = `Game type: ${responses.type}`;
     document.getElementById("weight-response").innerHTML = `Game weight: ${responses.weight}`;
     selectGame(responses.players, responses.type, responses.weight);
-} else {
+    } else {
     document.getElementById("question-area").innerHTML = "Error!";
-}
+    }
 }
 
 // Run the game by default on loading the page
