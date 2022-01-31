@@ -52,6 +52,7 @@ Insert Image
       - Function with the largest signature takes 3 arguments, while the median is 0.
       - Largest function has 10 statements in it, while the median is 4.
       - The most complex function has a cyclomatic complexity value of 4 while the median is 1.5.
+    - A comment has been included at the start of the JavaScript to ensure any warnings for older browser compatibility are removed.
 - Accessibility
     - No errors were detected when using the Wave (Web Accessibility Evaluation Tool) [extension](https://wave.webaim.org/extension/).
     - Google Lighthouse report outputs a 100 score for accessibility.

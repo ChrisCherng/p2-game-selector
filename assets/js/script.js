@@ -1,4 +1,4 @@
-// Comment to remove jshint validator errors for older browsers
+// Comment to remove jshint validator warnings for older browsers
 /*jshint esversion: 6 */
 
 // Set the arrays of standing data including images
