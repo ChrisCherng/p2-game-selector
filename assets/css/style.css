@@ -8,9 +8,8 @@ body {
 header {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
+    font-size: 30px;
     padding-top: 1%;
-    padding-bottom: 3%;
 }
 
 /** Question Area Styles */
@@ -102,7 +101,7 @@ header {
 @media (max-width: 480px) {
 
     header {
-        font-size: 40px;
+        font-size: 20px;
         padding-top: 1%;
         padding-bottom: 2%;
     }
