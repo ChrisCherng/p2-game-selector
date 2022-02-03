@@ -5,13 +5,11 @@ Insert Image
 
 ## Features 
 
-### Existing Features
-
 - __Board Game Selector Heading__
 
   - Featured at the top of the page, the heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the page.
 
-Insert Image
+![Board Game Selector header title](/assets/images/header.png)
 
 - __The Question Section__
 
@@ -19,25 +17,48 @@ Insert Image
   - This will move onto a new question when the user has clicked an answer.
   - Below this is a board game image to give some visual interest to the page.
 
-Insert Image
+![Text for Number of Players question, with an image of three meeple on a board](/assets/images/question-area.png)
 
 - __The Answer Area__
 
   - This section will allow the user to see the possible answers.
   - Once an answer has been clicked, the next question is activated, or in the case of the final question, the response page is shown.
 
-Insert Image
+![Three boxes with answer options for the number of players](/assets/images/answer-area.png)
 
 - __The Reponse Area__
 
   - This section is visible upon the user answering the final question.
   - Included is a summary of the responses from the user, the name of the selected game, an image of the selected game, and a list of all possible games in the selector for reference.
 
+![Root game box cover with an example set of user responses](/assets/images/response-area.png)
+
 - __The Reset Page Button__
 
   - This button allows the user to go back to the start of the questions, if they want to restart for any reason.
 
+![A button with Reset Page on it](/assets/images/reset-button.png)
+
 ## Testing 
+
+### Functionality Testing 
+
+To test that the site functions as designed, all combinations of possible answers were manually run to verify that:
+- The process through the quiz worked as expected.
+- The correct response was returned at the end.
+- All images displayed correctly.
+- No errors occurred during the test run.
+- The reset button returns the user to the first page.
+
+These tests were completed with no issues identified.
+
+### User Testing
+
+The deployed version of the site was tested by a number of family and friends, who were asked to test the functionality.
+The users found:
+- The site functionality worked without error.
+- The content of the site provided the user with the game information they were looking for, based on their responses.
+- The layout was clear and easy to use.
 
 ### Validator Testing 
 
@@ -57,6 +78,8 @@ Insert Image
     - No errors were detected when using the Wave (Web Accessibility Evaluation Tool) [extension](https://wave.webaim.org/extension/).
     - Google Lighthouse report outputs a 100 score for accessibility.
 
+    ![The Lighthouse accessibility report showing a score of 100](assets/images/lighthouse.png)
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -67,7 +90,6 @@ Insert Image
 
 The live link can be found here - https://chrischerng.github.io/p2-game-selector/
 
-
 ## Credits 
 
 ### Content 
@@ -76,7 +98,7 @@ The live link can be found here - https://chrischerng.github.io/p2-game-selector
 
 ### Media
 
-- The photos used on the home and sign up page are from [Board Game Geek](https://boardgamegeek.com/)
+- The images used on the sign up page are from [Board Game Geek](https://boardgamegeek.com/)
 
 ### People
 
