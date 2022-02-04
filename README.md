@@ -64,6 +64,9 @@ The users found:
 
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchrischerng.github.io%2Fp2-game-selector%2F)
+
+![Results of HTML validator showing no errors or warnings](/assets/images/html-validation.png)
+
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 - JavaScript
