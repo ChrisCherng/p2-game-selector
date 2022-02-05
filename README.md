@@ -1,6 +1,6 @@
 # Board Game Selector
 
-"Board Game Selector" is a site that uses Javascript to implement a quiz-style set of questions, in order to decide on a suitable board game for users to play/buy. The site will be targeted toward people who want to play or buy a board game, but are not sure which one. The site is responsive to allow for use on any device.
+"Board Game Selector" is a site that uses Javascript to implement a quiz-style set of questions, in order to decide on a suitable board game for users to play/buy. The site is targeted toward people who want to play or buy a board game, but are not sure which one. The site is responsive to allow for use on any device.
 
 ![Image of the site on a number of devices demonstrating responsiveness](/assets/images/responsive.png)
 
@@ -16,7 +16,7 @@
 
   - The question section provides the current prompt for the user to consider for their requirement in a board game.
   - This will move onto a new question when the user has clicked an answer.
-  - Below this is a board game image to give some visual interest to the page.
+  - Below this is a board game-related image to give some visual interest to the page.
 
   ![Text for Number of Players question, with an image of three meeple on a board](/assets/images/question-area.png)
 
@@ -49,7 +49,7 @@ To test that the site functions as designed, all combinations of possible answer
 - The correct response was returned at the end.
 - All images displayed correctly.
 - No errors occurred during the test run.
-- The reset button returns the user to the first page.
+- The reset button returned the user to the first page.
 
 These tests were completed with no issues identified.
 
@@ -111,7 +111,7 @@ The live link can be found here - https://chrischerng.github.io/p2-game-selector
 
 ### Media
 
-- The images used on the sign up page are from [Board Game Geek](https://boardgamegeek.com/).
+- The images used on the site are from [Board Game Geek](https://boardgamegeek.com/).
 
 ### People
 
