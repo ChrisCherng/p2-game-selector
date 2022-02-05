@@ -52,6 +52,8 @@ To test that the site functions as designed, all combinations of possible answer
 
 These tests were completed with no issues identified.
 
+To test that the site is responsive and suitable for all screens, the deployed site was checked on a desktop computer and a mobile device, with all functionality continuing to operate as expected, with no issues. In addition, checks were performed using Google Chrome Dev Tools to view the site on other devices - all were readable and useable.
+
 ### User Testing
 
 The deployed version of the site was tested by a number of family and friends, who were asked to test the functionality.
@@ -68,7 +70,10 @@ The users found:
 ![Results of HTML validator showing no errors or warnings](/assets/images/html-validation.png)
 
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchrischerng.github.io%2Fp2-game-selector%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Results of CSS validator showing no errors](/assets/images/css-validation.png)
+
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
       - The following metrics were returned: 
@@ -98,6 +103,7 @@ The live link can be found here - https://chrischerng.github.io/p2-game-selector
 ### Content 
 
 - The icons on the site were taken from [Font Awesome](https://fontawesome.com/)
+- The JavaScript comment to supress the jshint validator warnings about older browsers was taken from a comment on [Stack Overflow](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const) 
 
 ### Media
 
